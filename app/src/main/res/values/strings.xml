@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Ilias_Jayed</string>
+    <string name="btn1">Ajouter une societe</string>
+    <string name="btn2">Editer une societe</string>
+    <string name="btn3">Liste de tous les societe</string>
 </resources>
