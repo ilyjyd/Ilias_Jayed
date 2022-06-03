@@ -19,27 +19,27 @@ public class Societe implements Serializable {
     }
 
     public String getNom() {
-        return raisonsociale;
+        return Nom;
     }
 
-    public void setNom(String raisonsociale) {
-        this.raisonsociale = raisonsociale;
+    public void setNom(String Nom) {
+        this.Nom = Nom;
     }
 
     public String getSecteur_Activité() {
-        return adresse;
+        return Secteur_Activité;
     }
 
-    public void setSecteur_Activité(String adresse) {
-        this.adresse = adresse;
+    public void setSecteur_Activité(String Secteur_Activité) {
+        this.Secteur_Activité = Secteur_Activité;
     }
 
     public double getNombre_employe() {
-        return cpitale;
+        return Nombre_employe;
     }
 
-    public void setNombre_employe(double cpitale) {
-        this.cpitale = cpitale;
+    public void setNombre_employe(double Nombre_employe) {
+        this.Nombre_employe = Nombre_employe;
     }
 
     public Societe(int id, String Nom, String Secteur_Activité, double Nombre_employe) {
