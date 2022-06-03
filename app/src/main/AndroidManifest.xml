@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ilias_Jayed">
         <activity
+            android:name=".liste"
+            android:exported="false" />
+        <activity
             android:name=".modifie"
             android:exported="false" />
         <activity

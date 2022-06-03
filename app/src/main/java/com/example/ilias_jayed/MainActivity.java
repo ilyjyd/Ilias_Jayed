@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     public void affiche(View view) {
         Intent j=null;
         switch (view.getId()){
-            case R.id.btn1:j=new Intent(MainActivity.this,Ajouter.class);break;
-            case R.id.btn2:j=new Intent(MainActivity.this,Modifier.class);break;
-            case R.id.btn3:j=new Intent(MainActivity.this,Liste.class);break;
+            case R.id.btn1:j=new Intent(MainActivity.this,ajoute.class);break;
+            case R.id.btn2:j=new Intent(MainActivity.this,modifie.class);break;
+            case R.id.btn3:j=new Intent(MainActivity.this,liste.class);break;
         }
         startActivity(j);
     }
