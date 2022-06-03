@@ -7,8 +7,9 @@
     <string name="hnt2">Tapez le secteur de activiter</string>
     <string name="hnt3">Tapez le nombre de employer</string>
     <string name="btnajouter">ENREGISTRER</string>
-
     <string name="btnannuler">ANNULER</string>
+    <string name="btnmodifier">MODIFIER</string>
+    <string name="btnsupprimer">SUPPRIMER</string>
     <string name="ttr1">Ajouter Société</string>
     <string name="ttr2">Modifier Société</string>
     <string name="ttr3">Liste Société</string>
