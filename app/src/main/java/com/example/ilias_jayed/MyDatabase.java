@@ -46,7 +46,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         return db.delete(T_NAME,"id="+id,null);
     }
     public static ArrayList<Societe> getAllSociete(SQLiteDatabase db){
-        ArrayList<Societe> entr = new ArrayList<>();
+        ArrayList<Societe> soc = new ArrayList<>();
 
         Cursor cur = db.rawQuery("SELECT * FROM " + T_NAME,null);
 
@@ -56,10 +56,10 @@ public class MyDatabase extends SQLiteOpenHelper {
             e.setNom(cur.getString(1));
             e.setSecteur_Activité(cur.getString(2));
             e.setNombre_employe(cur.getDouble(3));
-            entr.add(e);
+            soc.add(e);
         }
 
-        return entr;
+        return soc;
     }
     public static Societe getOneSociete(SQLiteDatabase db, int id){
         Societe e = null;
